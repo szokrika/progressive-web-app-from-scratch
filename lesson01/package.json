@@ -16,7 +16,7 @@
   },
   "scripts": {
     "build": "webpack",
-    "start": "webpack-dev-server"
+    "start": "webpack-dev-server --open"
   },
   "keywords": [],
   "author": "",
