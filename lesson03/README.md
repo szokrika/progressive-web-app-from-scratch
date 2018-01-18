@@ -71,7 +71,8 @@ export default class Example extends React.Component {
 
 Add a directory called `src/css` and add a file called `main.global.css`, and add the following code:
 
-<pre><code class="language-css"> // main.global.css
+```css
+// main.global.css
 @import '~bootstrap/dist/css/bootstrap.css';
 ```
 

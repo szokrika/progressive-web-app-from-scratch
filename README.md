@@ -23,4 +23,5 @@ We are going to build a progressive web app from the scratch, step by step.
 
 1. [Lesson One: webpack, webpack-dev-server, and babel](/lesson01/).  
 2. [Lesson Two: React, React-Router](/lesson02).
-3. [Bootstrap, basic login page](/lesson03).
+3. [Losson Three: Bootstrap, basic login page](/lesson03).
+4. [Lesson Four: Redux, Redux-Saga](/lesson04).
