@@ -2,7 +2,7 @@ import React from 'react';
 import {
   Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink } from 'reactstrap';
 import Home from './home';
-import Login from './login';
+import Login from './containers/Login';
 import SignUp from './signUp';
 import Profile from './profile';
 import {

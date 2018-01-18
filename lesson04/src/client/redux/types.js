@@ -1,0 +1,3 @@
+export const SENDING_REQUEST = 'SENDING_REQUEST';
+export const CHANGE_FORM = 'CHANGE_FORM';
+export const LOGIN_REQUEST = 'LOGIN_REQUEST';
