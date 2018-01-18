@@ -13,6 +13,23 @@ export default {
   module: {
     rules: [
       { test: /\.(js|jsx)$/, use: 'babel-loader', exclude: /node_modules/ },
+      { test: /\.global\.css$/,
+        use: [
+          { loader: 'style-loader' },
+          { loader: 'css-loader', options: {
+            sourceMap: true
+          } }
+        ]
+      },
+      { test: /^((?!\.global))*\.css$/,
+        use: [
+          { loader: 'style-loader' },
+          { loader: 'css-loader', options: {
+            sourceMap: true,
+            modules: true
+          } }
+        ]
+      }
     ],
   },
   devtool: process.env.NODE_ENV === 'production' ? false : 'source-map',
