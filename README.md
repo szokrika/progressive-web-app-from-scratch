@@ -11,7 +11,15 @@ Build a progressive web app from scratch
 
 This is a step by step approach to build a progressive web application using React, and Webpack.  
 
+## Why progressive web app
+
+With people use their smart phones to surf the web, more than they use their desktop, it becomes more and more important to make your website, mobile friendly.  
+Make it more mobile friendly means more than build a responsive user interface, that will fit whatever screen size you have.  
+But as well, handle offline mobiles, and slow bandwidth on the mobile.  
+Progressive web app, is the answer to build a fast website, that loads fast on whatever web site, or device you have, and handle offline by loading the cached application, and save any saved data into the cache, until next time you connect to internet.  
+We are going to build a progressive web app from the scratch, step by step.  
+
 ## Table of contents
 
-[Lesson One: webpack, webpack-dev-server, and babel](/lesson01/).
-[Lesson Two: React, React-Router](/lesson02).
+1. [Lesson One: webpack, webpack-dev-server, and babel](/lesson01/).  
+2. [Lesson Two: React, React-Router](/lesson02).
