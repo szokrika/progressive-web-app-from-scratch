@@ -91,6 +91,7 @@ export default {
     headers: {
       'Access-Control-Allow-Origin': '*',
     },
+    historyApiFallback: true
   },
   plugins: [new HtmlWebpackPlugin({ template: './src/index.html' })],
 };
