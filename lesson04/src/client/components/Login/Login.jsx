@@ -1,11 +1,12 @@
 import React from 'react';
-import axios from 'axios';
 import { Field, reduxForm } from 'redux-form';
 
-let Login = ({ onLogin }) => {
+let Login = (props) => {
+  const { onLogin } = props;
+  console.log('xxxxxxxxxxxxxxxxxxxxxxxxxxx', props);
     return (
     <div className="container">
-      <form onSubmit={e => onLogin('ddd', 'xxx')}>
+      <form onSubmit={e => { e.preventDefault(); onLogin();} }>
         <div className="form-group">
             <label htmlFor="email">Email address</label>
             <Field type="email" className="form-control" id="email" name="email" component="input" aria-describedby="emailHelp" placeholder="Enter email" />

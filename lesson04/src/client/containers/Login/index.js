@@ -15,7 +15,6 @@ const mapDispatchToProps = dispatch => (
 );
 
 const mapStateToProps = (state) => {
-  return state;
+  return {credentials: state.form.login};
 };
-
 export default connect(mapStateToProps, mapDispatchToProps)(LoginView);
